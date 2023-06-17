@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Garden-React-website/static/css/main.819785d0.css",
+    "main.js": "/Garden-React-website/static/js/main.0649e7ce.js",
+    "static/js/787.d3befce1.chunk.js": "/Garden-React-website/static/js/787.d3befce1.chunk.js",
+    "static/media/image4.jpeg": "/Garden-React-website/static/media/image4.c082d97836e7f698bcda.jpeg",
+    "static/media/image2.jpg": "/Garden-React-website/static/media/image2.8d8198d0ec78ab4f049c.jpg",
+    "static/media/image6.jpg": "/Garden-React-website/static/media/image6.ec72490bc5558abdbc11.jpg",
+    "static/media/image3.jpeg": "/Garden-React-website/static/media/image3.ac2e257dc838f3a079f8.jpeg",
+    "static/media/image1.jpeg": "/Garden-React-website/static/media/image1.d64128cbd15e19c5d9a2.jpeg",
+    "static/media/image5.png": "/Garden-React-website/static/media/image5.4dd558ef820e58f900ca.png",
+    "index.html": "/Garden-React-website/index.html",
+    "main.819785d0.css.map": "/Garden-React-website/static/css/main.819785d0.css.map",
+    "main.0649e7ce.js.map": "/Garden-React-website/static/js/main.0649e7ce.js.map",
+    "787.d3befce1.chunk.js.map": "/Garden-React-website/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.819785d0.css",
+    "static/js/main.0649e7ce.js"
+  ]
+}
