@@ -23,19 +23,33 @@ ul {
 }
 
 .navoption {
-  display: block;
+  display: inline-block;
+  position: relative;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
+  cursor: pointer;
 }
-
-.navoption:hover {
-  text-decoration: underline;
-text-decoration-thickness: 1.4px;
-  text-underline-position: under;
+#nottitle:after{
+margin-left: 4px;
+margin-right: 6px;
+  content: '';
+  position: absolute;
+  width: 80%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 14px;
+  left: 5px;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+#nottitle:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
   cursor: pointer;
 }
 #aboutpara{
@@ -64,6 +78,7 @@ footer {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 17px;
+  user-select: none;
 }
 #arrow{
   cursor: pointer;
