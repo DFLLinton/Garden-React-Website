@@ -1,11 +1,12 @@
 import './App.css';
+import image from "./flowers.jpeg"; 
 
 function App() {
   return (
-    <div style={{ 
-      backgroundImage: "url(/flowers.jpeg)",
+    <div id="entire" style={{ 
+      backgroundImage: `url(${image})`,
       backgroundRepeat: 'no-repeat',
-      width:'250px' 
+      backgroundSize: 'cover',
     }}>
     <nav id="navbar"> 
     <ul>
